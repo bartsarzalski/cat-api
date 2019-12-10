@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  API_KEY: '7aa0ba33-1e51-421f-a45f-9ec505597477',
+  API_KEY: 'API KEY HERE',
   API_URL: 'https://api.thecatapi.com/v1/breeds'
 };
 
