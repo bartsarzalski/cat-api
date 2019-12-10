@@ -1,0 +1,26 @@
+<form class="form-signin">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input 
+      [(ngModel)]="username"
+      name="username"
+      class="form-control" 
+      placeholder="username" 
+      required
+      autofocus="">
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input 
+      [(ngModel)]="password"
+      name="password"
+      class="form-control" 
+      placeholder="password" 
+      required>
+    <div class="checkbox mb-3">
+    </div>
+    <button 
+      class="btn btn-lg btn-primary btn-block" 
+      type="submit"
+      (click)="login()"
+      >Sign in
+    </button>
+  </form>
